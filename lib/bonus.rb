@@ -25,13 +25,9 @@ def bonus
   #code your solution here:
   #
 
-status_hero = epic_tragedy[:montague]
-status_heroine = epic_tragedy[:capulet]
-
-binding.pry
-
-status_hero[:hero] = "dead"
-status_heroine[:heroine] = "dead"
+  epic_tragedy[:montague][:hero][:status] = "dead"
+  
+  epic_tragedy[:capulet][:heroine][:status] = "dead"
 
 
 
